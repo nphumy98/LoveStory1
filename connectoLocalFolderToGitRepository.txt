@@ -7,3 +7,7 @@ step 5: git add . -- to add
 step 6: git commit -m 'add to repository'
 step 7: git pull --rebase origin master
 step 8: git push origin master
+
+Optional step
+step 9: git push --set-upstream origin master -- to add upstream to remote origin, next time git push is ok enough
+step 10: git push
