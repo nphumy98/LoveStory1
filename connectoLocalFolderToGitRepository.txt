@@ -1,0 +1,9 @@
+How to connect local folder to git repository
+step 1: create a repository in git
+step 2: go to local file, right click to open git bash
+step 3: git init -- to initialise git 
+step 4: git remote add + name + URL of git repository (Example: git remote add origin https://github.com/nphumy98/LoveStory1.git)
+step 5: git add . -- to add
+step 6: git commit -m 'add to repository'
+step 7: git pull --rebase origin master
+step 8: git push origin master
